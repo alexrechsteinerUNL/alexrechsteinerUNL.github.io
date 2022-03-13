@@ -1,5 +1,5 @@
 body {
-    background-color: #520a3c;
+    background-color: #520a3c; /* fallback incase gradient is not supported */
     background-image: linear-gradient(to bottom right,#6d0016,#520a3c);
   }
   h1 {
