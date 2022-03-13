@@ -1,7 +1,7 @@
 body {
-    background-color: #7a0019;
+    background-color: linear-gradient(#6d0016,#5c0843);
   }
-  h1 {
+  h1, h2 {
     color: #d4872e;
   }
   p {
