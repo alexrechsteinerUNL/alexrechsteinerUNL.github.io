@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
 html {
     min-height: 100%;
     background-size: cover;
     background-color: #c44040; /* fallback incase gradient is not supported */
-    background-image: linear-gradient(to bottom right,#d43c5a,#c42d2d);
+    background-image: linear-gradient(to bottom right,#d43c5a,#f72c2c);
     background-image: "images/footertrash.png";
 }
 
 h1, h2 {
 color: #000000;
 font-family: 'Montserrat', sans-serif;
-font-weight: 100;
+font-weight: 200;
 }
+
+a {
+    color: #271f55;
+    text-decoration: none;
+  }
 
 header {
     text-align: center;
