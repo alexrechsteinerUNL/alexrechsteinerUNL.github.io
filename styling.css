@@ -1,14 +1,17 @@
-body {
+html {
+    min-height: 100%;
+    background-size: cover;
     background-color: #520a3c; /* fallback incase gradient is not supported */
     background-image: linear-gradient(to bottom right,#6d0016,#520a3c);
-  }
-  h1 {
-    color: #d4872e;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  h2 {
-    color: #D4AF37;
-  }
-  p {
-    color: rgb(255, 255, 255);
-  }
+}
+
+h1 {
+color: #d4872e;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+color: #D4AF37;
+}
+p {
+color: rgb(255, 255, 255);
+}
