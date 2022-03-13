@@ -42,13 +42,13 @@ h3,li {
 hr.solid {
     border:0;
     border-top: 1.5px solid #000000;
-    width: 1120px;
+    max-width: 1120px;
   }
 
 
 
 div.within-page-margins {
-    width: 1120px;
+    max-width: 1120px;
     margin: auto;
 }
 div.general-info {
@@ -58,7 +58,7 @@ div.general-info {
 }
 
 div.work-history {
-    width: 1024px;
+    max-width: 1024px;
     margin: auto;
     display: inline-block;
 }
