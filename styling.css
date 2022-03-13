@@ -50,6 +50,7 @@ hr.solid {
 
 div.within-page-margins {
     max-width: 1120px;
+    min-width:min-content;
     margin: auto;
 }
 div.general-info {
