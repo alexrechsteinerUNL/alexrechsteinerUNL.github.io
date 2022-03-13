@@ -41,21 +41,21 @@ h3,li {
 hr.solid {
     border:0;
     border-top: 1.5px solid #000000;
-    width: 1120px;
+    max-width: 100%;
   }
 
 div.within-page-margins {
-    max-width: 1120px;
+    max-width: 100%;
     margin: auto;
 }
 div.general-info {
-    width: 1024px;
+    max-width: 100%;
     margin: auto;
     display: inline-block;
 }
 
 div.work-history {
-    width: 1024px;
+    max-width: 100%;
     margin: auto;
     display: inline-block;
 }
