@@ -38,4 +38,5 @@ div.within-page-margins {
 div.general-info {
     width: 1024px;
     margin: auto;
+    display: inline-block;
 }
