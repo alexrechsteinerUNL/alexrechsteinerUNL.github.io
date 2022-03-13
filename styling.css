@@ -1,8 +1,10 @@
 body {
-    background-color: linear-gradient(#6d0016,#5c0843);
+    background-color: #520a3c;
+    background-image: linear-gradient(to bottom right,#6d0016,#520a3c);
   }
   h1 {
     color: #d4872e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   h2 {
     color: #D4AF37;
