@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 html {
     min-height: 100%;
     background-size: cover;
@@ -6,9 +6,9 @@ html {
     background-image: linear-gradient(to bottom right,#c53652,#c44040);
 }
 
-h1, h2, p {
+h1, h2 {
 color: #000000;
-font-family: 'Muli', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -17,8 +17,12 @@ h1 {
     margin: 0
 }
 
+hr.solid {
+    border-top: 1px solid #000000;
+  }
+
 h2 {
     text-align: center;
-    font-size: 42px;
+    font-size: 36px;
     margin: 0
 }
