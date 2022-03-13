@@ -2,20 +2,11 @@
 html {
     min-height: 100%;
     background-size: cover;
-    background-color: #520a3c; /* fallback incase gradient is not supported */
-    background-image: linear-gradient(to bottom right,#6d0016,#551a43);
+    background-color: #c44040; /* fallback incase gradient is not supported */
+    background-image: linear-gradient(to bottom right,#c53652,#c44040);
 }
 
-h1 {
-color: #d4872e;
-font-size: large;
-font-family: 'Muli', sans-serif;
-}
-h2 {
-color: #D4AF37;
-font-family: 'Muli', sans-serif;
-}
-p {
-color: rgb(255, 255, 255);
+h1, h2, p {
+color: #000000;
 font-family: 'Muli', sans-serif;
 }
