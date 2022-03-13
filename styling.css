@@ -45,7 +45,7 @@ hr.solid {
   }
 
 div.within-page-margins {
-    max-width: 100%;
+    max-width: 1120px;
     margin: auto;
 }
 div.general-info {
