@@ -11,8 +11,11 @@ color: #000000;
 font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+header {
     text-align: center;
+}
+
+h1 {
     font-size: 84px;
     margin: 0
 }
@@ -24,12 +27,15 @@ hr.solid {
   }
 
 h2 {
-    text-align: center;
     font-size: 36px;
     margin: 0
 }
 
 div.within-page-margins {
     width: 1120px;
+    margin: auto;
+}
+div.general-info {
+    width: 1024px;
     margin: auto;
 }
