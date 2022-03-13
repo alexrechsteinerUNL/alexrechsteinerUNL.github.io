@@ -20,7 +20,7 @@ h1 {
 hr.solid {
     border:0;
     border-top: 1.5px solid #000000;
-    width: 1024px;
+    width: 1120px;
   }
 
 h2 {
@@ -29,6 +29,7 @@ h2 {
     margin: 0
 }
 
-div.within-margins {
-    margin-left: 100px;
+div.within-page-margins {
+    width: 1120px;
+    margin: auto;
 }
