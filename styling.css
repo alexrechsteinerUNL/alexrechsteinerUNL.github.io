@@ -29,12 +29,12 @@ h1 {
 }
 
 h2 {
-    font-size: calc(20px + (36 - 18) * ((100vw - 320px) / (1120 - 320)));
+    font-size: calc(20px + (36 - 24) * ((100vw - 320px) / (1120 - 320)));
     margin: 0
 }
 
 h3,li {
-    font-size: 24px;
+    font-size: calc(20px + (36 - 32) * ((100vw - 320px) / (1120 - 320)));
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
     margin: 0
@@ -55,11 +55,11 @@ div.within-page-margins {
 div.general-info {
     max-width: 100%;
     margin: auto;
-    display: inline-block;
+    display:flex;
 }
 
 div.work-history {
     max-width: 100%;
     margin: auto;
-    display: inline-block;
+    display:flex;
 }
