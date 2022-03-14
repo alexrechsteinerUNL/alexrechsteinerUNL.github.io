@@ -47,8 +47,8 @@ hr.solid {
   }
 
 div.within-page-margins {
-    max-width: 1120px;
-    min-width: 600px;
+    max-width: 100rem;
+    min-width: 50rem;
     min-width:min-content;
     margin: auto;
 }
