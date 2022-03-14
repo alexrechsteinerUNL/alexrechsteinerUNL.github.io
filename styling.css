@@ -23,15 +23,13 @@ a {
     text-decoration: none;
   }
 
-
-
 h1 {
-    font-size: 84px;
+    font-size: calc(20px + (84 - 42) * ((100vw - 320px) / (1120 - 320)));
     margin: 0
 }
 
 h2 {
-    font-size: 36px;
+    font-size: calc(20px + (36 - 18) * ((100vw - 320px) / (1120 - 320)));
     margin: 0
 }
 
@@ -50,6 +48,7 @@ hr.solid {
 
 div.within-page-margins {
     max-width: 1120px;
+    min-width: 600px;
     min-width:min-content;
     margin: auto;
 }
