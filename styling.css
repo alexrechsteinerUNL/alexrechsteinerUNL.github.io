@@ -47,10 +47,13 @@ hr.solid {
   }
 
 div.within-page-margins {
+    background-color: #f3f0cc;
+    border-radius: 25px;
     max-width: 100rem;
     min-width: 50rem;
     min-width:min-content;
     margin: auto;
+    padding: 25px;
 }
 div.general-info {
     max-width: 100%;
